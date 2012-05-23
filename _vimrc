@@ -9,3 +9,6 @@ Bundle 'thinca/vim-ref'
 Bundle 'thinca/vim-quickrun'
 filetype plugin indent on
 
+" neocomplcache
+let g:neocomplcache_enable_at_startup = 1
+
