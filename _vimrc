@@ -9,6 +9,7 @@ Bundle 'thinca/vim-ref'
 Bundle 'thinca/vim-quickrun'
 
 Bundle 'vim-ruby/vim-ruby'
+Bundle 'tpope/vim-rails'
 
 filetype plugin indent on
 
