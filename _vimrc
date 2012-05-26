@@ -19,6 +19,12 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+nmap <ESC><ESC> :nohlsearch<CR><ESC>
+
 
 " neocomplcache
 let g:neocomplcache_enable_at_startup = 1
