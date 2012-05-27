@@ -1,0 +1,29 @@
+autoload -Uz compinit
+compinit
+setopt list_packed
+setopt list_rows_first
+setopt list_types
+
+autoload -Uz colors
+colors
+
+PROMPT="%m%{${fg[green]}%}%# %{${fg[white]}%}"
+
+setopt auto_pushd
+setopt pushd_ignore_dups
+
+# history
+HISTFILE=~/.zhistory
+HISTSIZE=10000
+SAVEHIST=100000
+setopt share_history
+setopt extended_history
+setopt inc_append_history 
+
+# alias
+alias ls='ls -GF'
+alias ll='ls -l'
+alias la='ls -a'
+alias lla='ls -la'
+alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
+alias vi=vim
