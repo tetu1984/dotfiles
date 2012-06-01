@@ -31,6 +31,10 @@ set ignorecase
 set smartcase
 nmap <ESC><ESC> :nohlsearch<CR><ESC>
 
+set laststatus=2
+
+set imdisable
+
 " backup
 set backup
 set backupdir=~/.vim/backup
