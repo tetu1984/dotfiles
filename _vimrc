@@ -31,6 +31,12 @@ set ignorecase
 set smartcase
 nmap <ESC><ESC> :nohlsearch<CR><ESC>
 
+" backup
+set backup
+set backupdir=~/.vim/backup
+set swapfile
+set directory=~/.vim/swap
+
 " cursor
 set cursorline
 augroup cch
