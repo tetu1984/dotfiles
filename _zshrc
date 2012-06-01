@@ -27,3 +27,5 @@ alias la='ls -a'
 alias lla='ls -la'
 alias vim='/Applications/MacVim.app/Contents/MacOS/Vim'
 alias vi=vim
+alias diff=colordiff
+
