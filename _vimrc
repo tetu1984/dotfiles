@@ -17,6 +17,10 @@ Bundle 'mrkn256.vim'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-rails'
 
+Bundle 'othree/html5.vim'
+
+Bundle 'scrooloose/syntastic'
+
 filetype plugin indent on
 
 syntax on
