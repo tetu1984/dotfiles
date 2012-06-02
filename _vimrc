@@ -24,6 +24,8 @@ Bundle 'othree/html5.vim'
 
 Bundle 'scrooloose/syntastic'
 
+Bundle 'tpope/vim-fugitive'
+
 filetype plugin indent on
 
 syntax on
