@@ -5,6 +5,9 @@ set rtp+=~/.vim/vundle.git/
 call vundle#rc()
 Bundle 'Shougo/neocomplcache'
 Bundle 'Shougo/unite.vim'
+Bundle 'Shougo/vimfiler'
+Bundle 'Shougo/vimproc'
+Bundle 'Shougo/vimshell'
 Bundle 'thinca/vim-ref'
 Bundle 'thinca/vim-quickrun'
 
