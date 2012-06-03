@@ -24,6 +24,7 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'nathanaelkane/vim-indent-guides'
 
 Bundle 'othree/html5.vim'
+Bundle 'hail2u/vim-css3-syntax'
 
 Bundle 'scrooloose/syntastic'
 
