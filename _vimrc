@@ -10,7 +10,7 @@ Bundle 'Shougo/vimproc'
 Bundle 'Shougo/vimshell'
 Bundle 'thinca/vim-ref'
 Bundle 'thinca/vim-quickrun'
-
+Bundle 'tyru/caw.vim'
 Bundle 'Lokaltog/vim-powerline'
 
 Bundle 'desert256.vim'
