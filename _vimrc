@@ -45,6 +45,9 @@ set ignorecase
 set smartcase
 nmap <ESC><ESC> :nohlsearch<CR><ESC>
 
+set list
+set listchars=tab:>-,extends:<,eol:\ ,trail:-
+
 set laststatus=2
 
 set imdisable
