@@ -19,9 +19,11 @@ Bundle 'mrkn256.vim'
 
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-rails'
-
+Bundle 'JavaScript-syntax'
+Bundle 'pangloss/vim-javascript'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'nathanaelkane/vim-indent-guides'
+Bundle 'yuroyoro/vim-scala'
 
 Bundle 'othree/html5.vim'
 Bundle 'hail2u/vim-css3-syntax'
