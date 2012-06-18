@@ -54,6 +54,9 @@ set laststatus=2
 
 set imdisable
 
+set splitright
+set splitbelow
+
 " backup
 set backup
 set backupdir=~/.vim/backup
