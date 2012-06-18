@@ -51,6 +51,7 @@ set list
 set listchars=tab:>-,extends:<,eol:\ ,trail:-
 
 set laststatus=2
+set number
 
 set imdisable
 
