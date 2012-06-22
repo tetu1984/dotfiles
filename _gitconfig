@@ -1,0 +1,13 @@
+[user]
+	name = tetu1984
+	email = tetu1984@gmail.com
+[color]
+	ui = auto
+[core]
+	pager = lv -c -Au8
+	quotepath = false
+[alias]
+	co = checkout
+	st = status -sb
+	br = branch
+	ci = commit
