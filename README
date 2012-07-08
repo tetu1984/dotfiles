@@ -12,3 +12,5 @@ ln -s ~/dotfiles/vimfiles ~/.vim
 vim
 :BundleInstall
 
+# zsh
+ln -s ~/dotfiles/_zshrc ~/.zshrc
