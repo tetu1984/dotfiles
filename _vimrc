@@ -12,6 +12,7 @@ Bundle 'thinca/vim-ref'
 Bundle 'thinca/vim-quickrun'
 Bundle 'tyru/caw.vim'
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'minibufexpl.vim'
 
 Bundle 'desert256.vim'
 Bundle 'yuroyoro/yuroyoro256.vim'
@@ -118,3 +119,7 @@ autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=#262626 ctermbg=235
 autocmd BufRead *_spec.rb syn keyword rubyRspec describe context it specify it_should_behave_like before after setup subject its shared_examples_for shared_context let
 highlight def link rubyRspec Function
 
+" minibufexpl.vim
+let g:miniBufExplMapWindowNavVim = 1
+let g:miniBufExplSplitBelow = 0
+let g:miniBufExplModSelTarget = 1
