@@ -13,6 +13,10 @@ Bundle 'thinca/vim-quickrun'
 Bundle 'tyru/caw.vim'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'minibufexpl.vim'
+Bundle 'SrcExpl'
+Bundle 'trinity.vim'
+Bundle 'The-NERD-tree'
+Bundle 'taglist.vim'
 
 Bundle 'desert256.vim'
 Bundle 'yuroyoro/yuroyoro256.vim'
@@ -56,8 +60,8 @@ set number
 
 set imdisable
 
-set splitright
-set splitbelow
+"set splitright
+"set splitbelow
 
 " backup
 set backup
@@ -121,7 +125,7 @@ highlight def link rubyRspec Function
 
 " minibufexpl.vim
 let g:miniBufExplMapWindowNavVim = 1
-let g:miniBufExplSplitBelow = 0
+let g:miniBufExplSplitBelow = 1
 let g:miniBufExplModSelTarget = 1
 
 " Unite
