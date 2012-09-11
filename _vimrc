@@ -33,6 +33,9 @@ Bundle 'yuroyoro/vim-scala'
 Bundle 'othree/html5.vim'
 Bundle 'hail2u/vim-css3-syntax'
 
+Bundle 'mattn/mkdpreview-vim'
+Bundle 'mattn/webapi-vim'
+
 Bundle 'scrooloose/syntastic'
 
 Bundle 'tpope/vim-fugitive'
