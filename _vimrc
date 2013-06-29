@@ -67,6 +67,9 @@ set imdisable
 "set splitright
 "set splitbelow
 
+"execute "set colorcolumn=" . join(range(81, 9999), ',')
+set colorcolumn=80
+
 " backup
 set backup
 set backupdir=~/.vim/backup
