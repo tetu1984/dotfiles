@@ -158,3 +158,7 @@ nnoremap <silent> [unite]d  :<C-u>UniteWithBufferDir -no-split file<CR>
 let g:quickrun_config = {}
 let g:quickrun_config['rst'] = {'command': 'make', 'cmdopt' : 'html'}
 let g:quickrun_config['*'] = {'split': 'below'}
+
+" Treat .hql files as SQL for syntax highlighting
+au BufNewFile,BufRead *.hql set filetype=sql
+
