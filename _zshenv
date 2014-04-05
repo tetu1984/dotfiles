@@ -5,4 +5,7 @@ if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi
 export LESS='--no-init --quit-if-one-screen -R'
 export LESSOPEN='| /usr/local/bin/src-hilite-lesspipe.sh %s'
 
+# brew install zsh-completions
+fpath=(/usr/local/share/zsh-completions $fpath)
+
 
