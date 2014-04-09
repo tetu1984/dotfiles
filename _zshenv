@@ -1,6 +1,7 @@
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:$PATH
 
 if which rbenv > /dev/null; then eval "$(rbenv init - zsh)"; fi
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
 export LESS='--no-init --quit-if-one-screen -R'
 export LESSOPEN='| /usr/local/bin/src-hilite-lesspipe.sh %s'
