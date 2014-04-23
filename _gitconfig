@@ -22,6 +22,12 @@
   show = `brew --prefix git`/share/git-core/contrib/diff-highlight/diff-highlight | less
   diff = `brew --prefix git`/share/git-core/contrib/diff-highlight/diff-highlight | less
 
+[diff]
+  tool = p4merge
+
+[merge]
+  tool = p4merge
+
 [tig "bind"]
   generic = g move-first-line
   generic = G move-last-line
@@ -29,8 +35,14 @@
   generic = ^B move-page-up
 
 [difftool "sourcetree"]
-	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$LOCAL\" \"$REMOTE\"
 	path = 
 [mergetool "sourcetree"]
-	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	cmd = /Applications/p4merge.app/Contents/MacOS/p4merge \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
 	trustExitCode = true
+
+[difftool "p4merge"]
+  cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge \"$LOCAL\" \"$REMOTE\"
+
+[mergetool "p4merge"]
+  cmd = /Applications/p4merge.app/Contents/Resources/launchp4merge \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"
